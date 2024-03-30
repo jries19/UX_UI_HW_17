@@ -26,7 +26,7 @@ h3{
 
 }
 
-.logoBig{
+.logoNav{
     font-size: 40px;
     font-family: "Leckerli One", sans-serif;
     cursor: pointer;
@@ -137,3 +137,38 @@ h3{
     border: 1px solid red;
 }
 /*Footer*/
+.footerBox{
+    background-color: #7AAC7A;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 188px;
+}
+.footerLogoContent{
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-align: left;
+}
+.logoFooter{
+    margin: 0px;
+    font-size: 50px;
+    color: black;
+    font-family: "Leckerli One", sans-serif;
+    cursor: pointer;
+}
+.footerText{
+    margin: 0px;
+    padding: 5px;
+}
+.footerLogoContent p{
+    font-style: italic;
+}
+.contactMe{
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.emailLogo{
+    padding-right: 10px;
+}
