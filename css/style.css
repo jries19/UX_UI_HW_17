@@ -1,0 +1,31 @@
+.navBar{
+    border: 1px solid red;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+
+.logoBig{
+    font-size: 40px;
+}
+
+.navItems{
+}
+
+.navItems ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.navItems li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    border: 1px solid red;
+}
