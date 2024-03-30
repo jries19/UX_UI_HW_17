@@ -4,13 +4,13 @@ body{
     color: black;
 }
 h1{
-    font-family: "Lilita", sans-serif;
+    font-family: "Lilita One", sans-serif;
 }
 h2{
-    font-family: "Lilita", sans-serif;
+    font-family: "Lilita One", sans-serif;
 }
 h3{
-    font-family: "Lilita", sans-serif;
+    font-family: "Lilita One", sans-serif;
 }
 /*Navigation*/
 .navBar{
@@ -18,7 +18,7 @@ h3{
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     height: 50px;
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -29,6 +29,7 @@ h3{
 .logoBig{
     font-size: 40px;
     font-family: "Leckerli One", sans-serif;
+    cursor: pointer;
 }
 
 .navItems{
@@ -51,7 +52,47 @@ h3{
 }
 
 /*Hero img/About me*/
+.heroImgCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenBox{
+    background-color: #B1D697;
+    border-radius: 10px;
+    margin: 50px 100px 50px 100px;
+    padding: 75px 75px;
+    width: 924px;
+    height: 559px;
+}
+.heroText{
+    font-family: "Lilita One", sans-serif;
+    font-size: 60px;
+}
+.mainButton{
+    background-color: #7AAC7A;
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    font-size: 25px;
+    width: 236px;
+    height: 58px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
 
 /*Project cards*/
+.urcCard{
+    background-color: #B1D697;
+    border-radius: 10px;
 
+}
+.edGovCard{
+    background-color: #B1D697;
+    border-radius: 10px;
+
+}
 /*Footer*/
