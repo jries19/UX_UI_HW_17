@@ -56,19 +56,31 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px 100px 50px 100px;
 }
 
 .greenBox{
     background-color: #B1D697;
     border-radius: 10px;
-    margin: 50px 100px 50px 100px;
-    padding: 75px 75px;
     width: 924px;
     height: 559px;
 }
 .heroText{
     font-family: "Lilita One", sans-serif;
+    margin: 0px;
     font-size: 60px;
+    padding: 50px 75px 10px 75px;
+}
+.subTextHero{
+    font-family: "Lilita One", sans-serif;
+    margin: 0px;
+    font-size: 25px;
+    padding: 0px 75px 10px 75px;
+}
+.bodyTextHero{
+    margin: 0px;
+    padding: 0px 75px 25px 75px;
+    font-size: 20px;
 }
 .mainButton{
     background-color: #7AAC7A;
@@ -82,6 +94,8 @@ h3{
     border: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    float: right;
+    margin-right: 20px;
 }
 
 /*Project cards*/
