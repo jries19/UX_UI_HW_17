@@ -1,3 +1,17 @@
+/*Adding fonts*/
+p{
+    font-family: "Ubuntu", sans-serif;
+}
+h1{
+    font-family: "Lilita", sans-serif;
+}
+h2{
+    font-family: "Lilita", sans-serif;
+}
+h3{
+    font-family: "Lilita", sans-serif;
+}
+/*Navigation*/
 .navBar{
     border: 1px solid red;
     padding: 15px;
@@ -10,6 +24,7 @@
 
 .logoBig{
     font-size: 40px;
+    font-family: "Leckerli One", sans-serif;
 }
 
 .navItems ul{
@@ -26,3 +41,9 @@
     padding: 15px;
     border: 1px solid red;
 }
+
+/*Hero img/About me*/
+
+/*Project cards*/
+
+/*Footer*/
