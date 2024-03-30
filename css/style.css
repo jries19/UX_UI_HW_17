@@ -12,9 +12,6 @@
     font-size: 40px;
 }
 
-.navItems{
-}
-
 .navItems ul{
     display: flex;
     flex-direction: row;
