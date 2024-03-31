@@ -132,7 +132,7 @@ h3{
 }
 .edGovContent{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
     border: 1px solid red;
@@ -141,7 +141,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
+    margin-left: 15px;
 }
 
 /*Footer*/
