@@ -98,31 +98,32 @@ h3{
     margin: 0px 50px 50px 50px;
 }
 
-/*Project cards*/
+/*URC Project card*/
 .projectCards{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 60px 22px 60px 22px;
+    justify-content: flex-start;
+    align-items: stretch;
     border: 1px solid red;
 }
 .headerTextProjects{
-    justify-content: flex-start;
+    margin-left: 10px;
 }
 .urcCard{
     background-color: #B1D697;
     border-radius: 10px;
     width: 1394px;
     height: 526px;
+    margin: 0 22px 60px 22px
 }
 .urcContent{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
     border: 1px solid red;
 }
+/*edGov Project card*/
 .edGovCard{
     background-color: #B1D697;
     border-radius: 10px;
@@ -131,11 +132,18 @@ h3{
 }
 .edGovContent{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
     border: 1px solid red;
 }
+.textContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
 /*Footer*/
 .footerBox{
     background-color: #7AAC7A;
