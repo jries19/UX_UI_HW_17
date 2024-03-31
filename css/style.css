@@ -15,7 +15,7 @@ h3{
 /*Navigation*/
 .navBar{
     margin: 0px;
-    padding: 15px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -24,9 +24,14 @@ h3{
     border-radius: 10px;
 }
 .logoNav{
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Leckerli One", sans-serif;
     cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.navItemSection{
+    margin-right: 75px;
 }
 .navItems{
     list-style-type: none;
@@ -36,6 +41,7 @@ h3{
     justify-content: space-evenly;
 }
 .navItems li a{
+    margin-left: 20px;
     color: black;
     list-style-type: none;
     text-decoration: none;
@@ -77,23 +83,30 @@ h3{
     font-size: 20px;
 }
 
-/*URC Project card*/
+/*Project cards*/
 .projectCards{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 50px
 }
 .headerTextProjects{
-    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 40px;
 }
+/*URC Project card*/
 .urcCard{
     background-color: #B1D697;
     border-radius: 10px;
     width: 1394px;
     height: 526px;
-    margin: 0 22px 60px 22px
+    margin: 0 0 60px 22px
 }
 .urcContent{
     display: flex;
@@ -106,7 +119,7 @@ h3{
     border-radius: 10px;
     width: 1394px;
     height: 589px;
-    margin: 0 22px 60px 22px
+    margin: 0 0 60px 22px
 }
 .edGovContent{
     display: flex;
